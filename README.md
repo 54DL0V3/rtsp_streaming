@@ -1,7 +1,8 @@
 
 # RSTP Streaming
 
-This example allows you to stream frames via RTSP
+This example allows you to stream frames via RTSP.
+Supported single client.
 
 ## Installation
 
@@ -12,13 +13,13 @@ python3 -m pip install -r requirements.txt
 
 ## Usage
 
-Run the application using webcam
+Run the application using webcam:
 
 ```
 python3 main.py
 ```
 
-Run the application using video
+Run the application using video:
 
 ```
 python3 main.py --video <video path>
